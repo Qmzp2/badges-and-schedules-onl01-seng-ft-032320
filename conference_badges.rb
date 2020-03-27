@@ -26,10 +26,10 @@ end
     
 def printer(prints)
   
- array_of_badge_names = []
+
   prints.each{|attendees| puts "Hello, my name is #{attendees}."}
   
-   array1=[]
+ 
   counter = 1
  prints.each do |speaker|
  
