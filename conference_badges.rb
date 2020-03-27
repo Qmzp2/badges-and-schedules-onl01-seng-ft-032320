@@ -25,14 +25,9 @@ end
 end
     
 def printer(prints)
-  
-
   prints.each{|attendees| puts "Hello, my name is #{attendees}."}
-  
- 
   counter = 1
  prints.each do |speaker|
- 
   puts "Hello, #{speaker}! You'll be assigned to room #{counter}!"
   counter +=1 
 end
